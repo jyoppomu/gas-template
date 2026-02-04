@@ -13,9 +13,9 @@ export type InsertEntrypointsOptions = {
 };
 
 export type DefaultInsertEntrypointsOptions = Required<
-  Pick<GenerateEntrypointsOptions, "comment">
+  Pick<InsertEntrypointsOptions, "comment">
 > &
-  Omit<GenerateEntrypointsOptions, "comment">;
+  Omit<InsertEntrypointsOptions, "comment">;
 
 export type RollupPluginOptions = {
   include?: Array<string>;
