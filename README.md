@@ -2,7 +2,7 @@
 
 ## REQUIREMENTS
 
-- Node.js v18
+- [mise](https://mise.jdx.dev/)
 
 ## USAGE
 
