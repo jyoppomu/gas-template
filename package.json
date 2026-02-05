@@ -27,17 +27,17 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aYukiYoshida/gas-template.git"
+    "url": "git+https://github.com/jyoppomu/gas-template.git"
   },
   "keywords": [
     "GAS"
   ],
-  "author": "Yuki Yoshida <yuki.yoshida@access-company.com> (https://ayukiyoshida.github.io/tips/)",
+  "author": "Yuki Yoshida <yuki.yoshida@access-company.com> (https://jyoppomu.github.io/tips/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aYukiYoshida/gas-template/issues"
+    "url": "https://github.com/jyoppomu/gas-template/issues"
   },
-  "homepage": "https://github.com/aYukiYoshida/gas-template#readme",
+  "homepage": "https://github.com/jyoppomu/gas-template#readme",
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.26.0",
