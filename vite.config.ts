@@ -28,6 +28,7 @@ export default defineConfig({
     emptyOutDir: false,
     minify: false, // trueにすると関数名が消えるのでfalse必須
     target: "esnext",
+    sourcemap: true,
   },
   esbuild: false,
   resolve: {
