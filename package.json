@@ -17,7 +17,7 @@
     "prepush": "npm run build",
     "push": "clasp push -P dist/.clasp.json",
     "pull": "clasp pull -P dist/.clasp.json",
-    "version": "clasp version -P dist/.clasp.json",
+    "version": "clasp version -P dist/.clasp.json $(git rev-parse --short=7 HEAD)",
     "versions": "clasp versions -P dist/.clasp.json",
     "deploy": "clasp deploy -P dist/.clasp.json",
     "deployments": "clasp deployments -P dist/.clasp.json",
