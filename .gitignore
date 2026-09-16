@@ -134,3 +134,6 @@ Footer
 
 # clasp build output
 dist/*
+
+# lefthook
+lefthook-local.yml

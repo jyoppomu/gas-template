@@ -4,7 +4,7 @@
   "description": "Template for Google Apps Script",
   "scripts": {
     "prepare": "npm-run-all prepare:*",
-    "prepare:husky": "husky install",
+    "prepare:lefthook": "lefthook install",
     "lint": "eslint **/*.ts --fix",
     "format": "prettier **/*.ts --write",
     "login": "clasp login --status",
@@ -54,8 +54,7 @@
     "eslint-plugin-import": "^2.32.0",
     "gas-entry-generator": "^3.0.0",
     "globals": "^16.1.0",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.0.2",
+    "lefthook": "^2.1.14",
     "npm-failsafe": "^1.4.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.0.3",
@@ -64,11 +63,5 @@
     "rollup-pluginutils": "^2.8.2",
     "typescript": "^5.7.3",
     "vitest": "^4.0.17"
-  },
-  "lint-staged": {
-    "**/*.{ts,mjs}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
   }
 }
