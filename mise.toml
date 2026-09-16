@@ -1,7 +1,9 @@
 [env]
-_.path = [
-    "{{config_root}}/node_modules/.bin",
-]
+_.path = ["{{config_root}}/node_modules/.bin"]
 
 [tools]
-node = { version = "24.20.0", postinstall = "npm install" }
+node = "24.20.0"
+pnpm = "11.26.0"
+
+[hooks]
+postinstall = "pnpm install"

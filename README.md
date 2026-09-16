@@ -8,10 +8,10 @@
 
 ### SETUP
 
-- install dependencies
+- install Node.js and pnpm dependencies
 
   ```shell
-  npm install
+  mise install
   ```
 
 ### COMMANDS FOR GAS
@@ -19,35 +19,35 @@
 - login to clasp
 
   ```shell
-  npm run login
+  pnpm run login
   ```
 
 - create new project
 
   ```shell
-  npm run create
+  pnpm run create
   ```
 
 - clone project already exists
 
   ```shell
-  npm run clone <SCRIPT_ID>
+  pnpm run clone <SCRIPT_ID>
   ```
 
 - push project
 
   ```shell
-  npm run push
+  pnpm run push
   ```
 
 - pull project
 
   ```shell
-  npm run pull
+  pnpm run pull
   ```
 
 - invoke function
 
   ```shell
-  npm run invoke <FUNCTION_NAME>
+  pnpm run invoke <FUNCTION_NAME>
   ```
