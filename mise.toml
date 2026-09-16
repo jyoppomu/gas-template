@@ -4,4 +4,4 @@ _.path = [
 ]
 
 [tools]
-node = { version = "24.19.0", postinstall = "npm install" }
+node = { version = "24.20.0", postinstall = "npm install" }
