@@ -8,7 +8,7 @@ pnpm = "11.26.0"
 [hooks]
 postinstall = """
 pnpm install
-lefthook install
+pnpm exec lefthook install
 """
 
 [tasks."lint:all"]
@@ -27,6 +27,21 @@ run = "pnpm run test"
 description = "Build the project"
 run = "pnpm run build"
 depends = ["lint:all", "format:all", "test"]
+
+[tasks.login]
+description = "Login to clasp"
+run = "pnpm run clasp:login"
+
+[tasks.create]
+description = "Create a new clasp project"
+run = "pnpm run clasp:create"
+
+[tasks.clone]
+description = "Clone an existing clasp project"
+usage = """
+arg "<id>" help="The script ID of the existing clasp project"
+"""
+run = "pnpm run clasp:clone ${usage_id}"
 
 [tasks.push]
 description = "Push scripts after building the project"

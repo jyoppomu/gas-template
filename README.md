@@ -8,28 +8,28 @@
 
 ### SETUP
 
-- install Node.js, pnpm dependencies and git hooks
+1. install Node.js, pnpm dependencies and git hooks
 
   ```shell
   mise install
   ```
 
-- login to clasp
+1. login to clasp
 
   ```shell
-  pnpm run clasp:login
+  mise run login
   ```
 
-- create new project
+1. create new project
 
   ```shell
-  pnpm run clasp:create
+  mise run create
   ```
 
-- clone project already exists
+1. clone project with specifying project ID created by the previous step
 
   ```shell
-  pnpm run clasp:clone <SCRIPT_ID>
+  mise run clone <id>
   ```
 
 ### COMMANDS FOR GAS
