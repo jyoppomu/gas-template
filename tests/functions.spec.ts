@@ -1,12 +1,12 @@
-import {describe, it, vi} from "vitest";
+import {describe, expect, it, vi} from "vitest";
 
 import functions from "../src/functions";
 
-global.Logger = {
+vi.stubGlobal("Logger", {
   log: vi.fn(),
   clear: vi.fn(),
   getLog: vi.fn(),
-};
+});
 
 describe("functions", () => {
   describe("main", () => {

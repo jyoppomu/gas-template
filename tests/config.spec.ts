@@ -5,9 +5,9 @@ import {loadProperties} from "../src/config";
 let properties: Record<string, string> = {};
 const getProperties = vi.fn(() => ({...properties}));
 
-global.PropertiesService = {
+vi.stubGlobal("PropertiesService", {
   getScriptProperties: () => ({getProperties}),
-} as unknown as typeof PropertiesService;
+});
 
 beforeEach(() => {
   properties = {
