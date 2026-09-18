@@ -53,9 +53,6 @@ importers:
       lefthook:
         specifier: 2.1.14
         version: 2.1.14
-      npm-failsafe:
-        specifier: 1.4.0
-        version: 1.4.0
       prettier:
         specifier: 3.9.6
         version: 3.9.6
@@ -2175,11 +2172,6 @@ packages:
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
-
-  npm-failsafe@1.4.0:
-    resolution: {integrity: sha512-Q05Y2CKfS4XpXkqrCqsTUJeVrKw00AmhAN7IPMMc5Ri1c8WbOSBbrBJTFWknDKMZg684BdWRPcSYPbKXauDKrA==}
-    engines: {node: ^20 || ^22 || ^24}
-    hasBin: true
 
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
@@ -5001,8 +4993,6 @@ snapshots:
       validate-npm-package-license: 3.0.4
 
   normalize-path@3.0.0: {}
-
-  npm-failsafe@1.4.0: {}
 
   object-assign@4.1.1: {}
 
