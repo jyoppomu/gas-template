@@ -132,8 +132,11 @@ Footer
 # nodenv
 .node-version
 
-# clasp build output
+# build output
 dist/*
+
+# clasp
+.clasp.json
 
 # lefthook
 lefthook-local.yml
